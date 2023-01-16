@@ -1,9 +1,21 @@
 #include <iostream>
+#include "collections.h"
 
 using namespace std;
 
 int main() {
-    cout << "Hey!" << endl;
+    Stack stack;
+
+    cout << stack.Size() << endl;
+    stack.Push(5);
+    stack.Push(3);
+    stack.Push(2);
+
+    cout << stack.Size() << endl;
+    cout << stack.Pop() << endl;
+    cout << stack.Pop() << endl;
+    cout << stack.Pop() << endl;
+    cout << stack.Size() << endl;
     
     return 0;
 }
