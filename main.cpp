@@ -10,6 +10,7 @@ int main() {
     stack.Push(5);
     stack.Push(3);
     stack.Push(2);
+    stack.Push(1);
 
     cout << stack.Size() << endl;
     cout << stack.Pop() << endl;
