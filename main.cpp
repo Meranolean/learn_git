@@ -16,6 +16,7 @@ int main() {
     cout << stack.Pop() << endl;
     cout << stack.Pop() << endl;
     cout << stack.Pop() << endl;
+    cout << stack.Pop() << endl;
     cout << stack.Size() << endl;
     
     return 0;
